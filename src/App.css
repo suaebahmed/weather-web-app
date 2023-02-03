@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+
+.container{
+  max-width: 1024px;
+  margin: 80px auto;
+  padding: 0px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex-items{
+  width: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.location-wrapper{
   display: flex;
   flex-direction: column;
+  /* background-color: red; */
+}
+
+.location{
+  display: flex;
+  flex-direction: row;
+}
+
+.search-box{
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
+  width: 327px;
+  height: 45px;
+  padding: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  /* background-color: red; */
+
+}
+form{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+button{
+  background-color: transparent;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#input-field{
+  background-color: transparent;
+  font-size: medium;
+  border: none;
+  font-style: italic;
+}
+#input-field:focus{
+  outline: none;
+}
+
+.card-label{
+  height: 260px;
+  width: 140px;
+  margin-top: 20px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card-label-body{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.all-cards{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.date-box{
+  background: #D9D9D9;
+  border: 1px solid #464646;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 140px;
+  height: 37px;
+}
+.date-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 600px) {
+  .navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .navbar-right{
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+    margin: 35px 20px;
+  }
+  .header{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .location-wrapper{
+    margin-top: 20px;
+  }
+  .search-box{
+    width: 100%;
+    padding: 15px;
   }
 }
