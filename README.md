@@ -2,6 +2,11 @@
 
 You can view live [here](https://suaebahmed.github.io/weather-web-app/)
 
+## Tech-stack used:
+    - HTML
+    - CSS
+    - React.js
+
 ## Installation
 
 ```bash
