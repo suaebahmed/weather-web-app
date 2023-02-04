@@ -7,15 +7,12 @@ function Navbar() {
 
   return (
     <div className='navbar'>
-        <a style={{"color":"white","textDecoration":"none"}} href='/'>
-          <div className='navbar-content'>
-              <img src={logo} alt='aa'></img>
-              <p className='logo-text'>Weather 99</p>
-          </div>
-        </a>
+        <div style={{cursor:'pointer'}} className='navbar-content'>
+            <img src={logo} alt='aa'></img>
+            <p className='logo-text'>Weather 99</p>
+        </div>
         <div>
-          <div className='navbar-line'></div>
-          <a style={{"color":"white","textDecoration":"none"}} className='navbar-content navbar-right' href='/'>
+          <a style={{"color":"white","textDecoration":"none"}} className='navbar-content navbar-right' href='/weather-web-app'>
             <button>
                 <img src={Refreshbtn} alt='abb'></img>
             </button>
