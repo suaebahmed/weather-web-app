@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/weather-web-app/static/css/main.30630381.css",
-    "main.js": "/weather-web-app/static/js/main.561dd06e.js",
-    "static/media/sanny.svg": "/weather-web-app/static/media/sanny.61011473dd1fc30891d6d608a5486ac0.svg",
+    "main.css": "/weather-web-app/static/css/main.842b70d5.css",
+    "main.js": "/weather-web-app/static/js/main.8ae635a2.js",
     "static/media/calender.svg": "/weather-web-app/static/media/calender.00d5724114beabd426265df4790cf6c8.svg",
     "static/media/refresh-btn.svg": "/weather-web-app/static/media/refresh-btn.37d92ee2eafb88b5deaa5adfa9105a4a.svg",
     "static/media/logo.svg": "/weather-web-app/static/media/logo.486b043f5c7fea70847733da2e45dbea.svg",
     "index.html": "/weather-web-app/index.html",
-    "main.30630381.css.map": "/weather-web-app/static/css/main.30630381.css.map",
-    "main.561dd06e.js.map": "/weather-web-app/static/js/main.561dd06e.js.map"
+    "main.842b70d5.css.map": "/weather-web-app/static/css/main.842b70d5.css.map",
+    "main.8ae635a2.js.map": "/weather-web-app/static/js/main.8ae635a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.30630381.css",
-    "static/js/main.561dd06e.js"
+    "static/css/main.842b70d5.css",
+    "static/js/main.8ae635a2.js"
   ]
 }
