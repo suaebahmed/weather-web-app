@@ -21,7 +21,7 @@ function Card({data}) {
         <div>{Today_Date}</div>
         <div className='card'>
             <div className='card-header'>
-                <img style={{width:'50px', height:'50px',color:'white'}} src={`weather-web-app/icons/${data.list.weather[0].icon}.png`} alt='show sanny'></img>
+                <img style={{width:'50px', height:'50px'}} src={`/weather-web-app/icons/${data.list.weather[0].icon}.png`} alt='show sanny'></img>
                 <p>{description}</p>
             </div>
             <div className='card-line'></div>
